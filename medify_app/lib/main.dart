@@ -19,17 +19,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Poppins',
       ),
-      home: const PaginaSaude(),
+      home: const TelaPrincipal(),
       debugShowCheckedModeBanner: false, //OCULTA A FAIXA DEBUG
     );
   }
 }
-
-// isto é para configurar as rotas, para navegar entre telas usando Navigator.pushNamed(context, 'nome_da_rota')
-/*
-routes: {
-  'ubss_screen': (context) => const UBSsScreen(),
-  'hospitais_screen': (context) => const HospitaisScreen(),
-  // ... etc
-}
-*/
